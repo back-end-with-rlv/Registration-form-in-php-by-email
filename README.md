@@ -1,3 +1,23 @@
+# Home Page
+
+This PHP script (`index.php`) displays a simple home page for authenticated users. It checks if a user is logged in using session management. If a user is logged in, it retrieves user information from the database and displays a personalized greeting message. If no user is logged in, it provides options to log in or sign up.
+
+## Usage
+
+1. Clone this repository.
+2. Configure your local environment to run PHP and MySQL.
+3. Import the provided SQL file (`database.sql`) to create the necessary database structure.
+4. Open `index.php` in a web browser to access the home page.
+5. If you are not logged in, you will see options to log in or sign up.
+6. If you are logged in, you will see a personalized greeting message with your name and an option to log out.
+
+## Pages
+
+- `login.php`: Provides a login form for users to authenticate.
+- `signup_form.php`: Provides a sign-up form for users to register.
+- `logout.php`: Logs out the current user and destroys the session.
+- `forget_password.php`: Allows users to reset their password if forgotten.
+
 # Sign Up Form
 
 This PHP script (`signup_form.php`) provides a simple sign-up form for users to register. It performs validation on form fields and inserts user data into a MySQL database.
