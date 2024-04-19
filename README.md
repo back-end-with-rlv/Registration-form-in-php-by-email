@@ -50,7 +50,18 @@ This PHP script (`login.php`) provides a simple login page for users to authenti
 
 If you forgot your password, you can reset it by visiting the "Forget Password" page (`forget_password.php`).
 
+## PHPMailer Integration
+
+This project uses PHPMailer for sending emails. PHPMailer is a popular email-sending library for PHP that provides a clean and simple interface for sending emails securely via SMTP or mail(). To integrate PHPMailer into your project:
+
+1. Install PHPMailer via Composer by running:
 ## Requirements
+
+2. Require the necessary PHPMailer files in your PHP scripts where email sending is required. For example:
+```php
+require 'path/to/PHPMailer/Exception.php';
+require 'path/to/PHPMailer/PHPMailer.php';
+require 'path/to/PHPMailer/SMTP.php';
 
 - PHP 7.x
 - MySQL
