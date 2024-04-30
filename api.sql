@@ -59,12 +59,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`) VALUES
-(2, 'Ratan lal', 'vermalal1996@gmail.com'),
 (4, 'Sunil', 'codeknowithrlv@gmail.com'),
 (9, 'Ratan lal', 'asdf@gmail.com'),
-(10, 'Ratan lal', 'xyxa12@gmail.com'),
 (11, 'Ask', 'asxd@gmail.com'),
-(12, 'Ratan LAl ', 'dinesh.kumawat@bajaao.com'),
 (13, 'Ajay verma', 'ajay122@gmail.com'),
 (14, 'Ratan lal', 'ssd@gmail.com');
 
@@ -72,35 +69,6 @@ INSERT INTO `users` (`id`, `name`, `email`) VALUES
 -- Indexes for dumped tables
 --
 
---
--- Indexes for table `api_token`
---
-ALTER TABLE `api_token`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `api_token`
---
-ALTER TABLE `api_token`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
