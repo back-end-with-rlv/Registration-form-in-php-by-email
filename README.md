@@ -9,7 +9,7 @@ This PHP script (`index.php`) displays a simple home page for authenticated user
 
 1. Clone this repository.
 2. Configure your local environment to run PHP and MySQL.
-3. Import the provided SQL file (`database.sql`) to create the necessary database structure.
+3. Import the provided SQL file (`database.sql`) i add to file in api.sql you check properly to create the necessary database structure.
 4. Open `index.php` in a web browser to access the home page.
 5. If you are not logged in, you will see options to log in or sign up.
 6. If you are logged in, you will see a personalized greeting message with your name and an option to log out.
